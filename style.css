@@ -1,0 +1,48 @@
+body{
+    color:black;
+    background-color: lightpink;
+}
+#client{
+    width:100px;
+    height:100px;
+    background-color:antiquewhite;
+    margin:10px;
+}
+#cook{
+    width:209px;
+    height:100px;
+    background-color:antiquewhite;
+    margin:10px;
+    display: flex;
+    gap:1px;
+}
+#result{
+    width:100px;
+    height:100px;
+    background-color:antiquewhite;
+    color:black;
+    margin:10px;
+    cursor: pointer;
+}
+#client-order{
+    width:120px;
+    height:128px;
+    background-color:rgb(180, 147, 103);
+    color:black;
+    margin:10px;
+}
+.space{
+    width:69px;
+    height:100px;
+    background-color:rgb(224, 91, 91);
+    color:white;
+    cursor: pointer;
+}
+.ingredient{
+    width:60px;
+    height:30px;
+    font-size: 20px;
+    background-color:antiquewhite;
+    cursor: pointer;
+    margin:10px;
+}

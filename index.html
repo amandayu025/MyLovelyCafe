@@ -7,6 +7,24 @@
         <title>Document</title>
     </head>
     <body>
+        <h1>My Lovely Cafe</h1>
+        <h2>Money:</h2><p id="money"></p>
+        <h2>Item:</h2><p id="item"></p>
+        <section id="client-order">
+            <div id="order">latte</div>
+            <div id="client" onclick="give_item()"></div>
+        </section>
+        <section id="ingredients">
+            <div id="coffee" class="ingredient" onclick="hold_item(COFFEE)">coffee</div>
+            <div id="milk" class="ingredient" onclick="hold_item(MILK)">milk</div>
+        </section>
+        <section id="cook">
+            <div id="space-1" class="space" onclick="add_item(this.id)"></div>
+            <div id="space-2" class="space" onclick="add_item(this.id)"></div>
+            <div id="space-3" class="space" onclick="add_item(this.id)"></div>
+        </section>
+        <button onclick="mix()">Mix</button>
+        <div id="result" onclick="hold_item(RESULT)"></div>
         <script src="script.js"></script>
     </body>
 </html>
